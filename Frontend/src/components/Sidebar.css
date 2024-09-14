@@ -1,0 +1,83 @@
+/* Sidebar.css */
+
+/* Styling the entire navbar */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* White text for the brand */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    border-color: #fff; /* White border for the toggler */
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+
+  .navbar-nav{
+    margin-top: 10px;
+  }
+  
+  /* Styling for the navigation links */
+  .navbar-nav .nav-link {
+    color: #fff; /* White text for nav links */
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    margin-top: 5px;
+    
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff9800; /* Orange color on hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #ff9800; /* Different color for active link */
+    border-bottom: 2px solid #ff9800; /* Highlight active link */
+  }
+  
+  /* Logout link styling */
+  #logout {
+    cursor: pointer;
+    color: #dc3545; /* Red color for logout */
+    font-weight: 600;
+  }
+  
+  #logout:hover {
+    color: #ff4c4c; /* Slightly lighter red on hover */
+  }
+  
+  /* Responsive collapse menu */
+  .collapse.navbar-collapse {
+    justify-content: flex-end; /* Align menu items to the right */
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+      background-color: #343a40;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.7rem;
+      border-bottom: 1px solid #444;
+    }
+  
+    #logout {
+      padding: 0.7rem;
+      border-bottom: 1px solid #444;
+    }
+  }
+  

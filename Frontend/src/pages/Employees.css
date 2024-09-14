@@ -1,0 +1,146 @@
+/* Employees.css */
+
+/* Base styles for light aesthetic theme */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .searchBox {
+    margin-top: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+
+  p {
+    text-align: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    color: #ffffff;
+    width: 25%;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  .btn-info {
+    background-color: #1abc9c;
+  }
+  
+  .btn-info:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  .table tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table td {
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .table,
+    .table thead,
+    .table tbody,
+    .table th,
+    .table td,
+    .table tr {
+      display: block;
+    }
+  
+    .table tr {
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .table th,
+    .table td {
+      padding: 10px;
+      text-align: right;
+      position: relative;
+    }
+  
+    .table th::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      text-align: left;
+      font-weight: bold;
+      color: #888;
+    }
+  }
+  

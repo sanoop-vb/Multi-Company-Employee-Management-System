@@ -1,0 +1,25 @@
+/* EmployeeSalaryChart.css */
+
+.chart-container {
+    max-width: 800px; /* Limits the maximum width of the chart */
+    margin: 40px auto; /* Centers the chart on the page */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  /* Loading message */
+  p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+  }
+  
